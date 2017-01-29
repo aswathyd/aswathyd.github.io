@@ -140,14 +140,16 @@ h3{
 .skill-lockup{
 	max-width: 700px;
 	margin: 100px auto;
+	padding: 20px;
 	color: #999;
 	overflow: hidden;
 	
 }
 
 .skill-unit{
-	width:350px;
+	width:320px;
 	float:left;
+	padding-left: 30px;
 }
 
 .skill-icons{
@@ -563,9 +565,12 @@ footer{
 	}
 }
 
-@media (max-width: 541px){
+@media (max-width: 500px){
 	.skill-lockup{
 		width:270px;
+	}
+	.skill-unit{
+		width: auto;
 	}
 }
 
