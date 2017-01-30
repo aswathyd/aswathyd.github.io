@@ -565,6 +565,9 @@ footer{
 		
 		
 	}
+	.work-container{
+		max-width: 300px;
+	}
 }
 
 @media (max-width: 700px){
