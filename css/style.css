@@ -473,6 +473,8 @@ footer{
 	background-color: rgba(17,17,17,0.9);
 	opacity: 0.9;
 	transition: all 0.3s ease-in-out;
+	z-index: 100000; 
+
 }
 
 .fa-times{
