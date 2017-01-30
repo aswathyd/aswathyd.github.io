@@ -463,9 +463,10 @@ footer{
 }
 .sidebar_menu{
 	position: fixed;
-	width: 250px;
-/*	margin-left: 0px;*/
-	margin-left: -250px;
+	width: 25%;
+	margin-left: 0px;
+/*	margin-left: -250px;*/
+	margin-left: -25%;
 	overflow: hidden;
 	height: 100vh;
 	max-height: 100vh;
@@ -473,6 +474,7 @@ footer{
 	opacity: 0.9;
 	transition: all 0.3s ease-in-out;
 }
+
 .fa-times{
 	right:10px;
 	top:10px;
@@ -490,7 +492,9 @@ footer{
 
 .boxed_item{
 	font-family: 'Open Sans';
-	font-weight: 200;
+	width: auto;
+/*	font-weight: 200;*/
+	font-weight: 100;
 	padding: 10px 20px;
 	display: inline-block;
 	border: solid 2px white;
@@ -575,5 +579,15 @@ footer{
 	}
 }
 
+@media (max-width: 900px){
+	.boxed_item{
+		visibility: hidden;
+	}
+	.logo_title{
+		visibility: hidden;
+		
+	}
+	
+}
 
 
