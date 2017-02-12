@@ -32,14 +32,13 @@ $(document).ready(function(){
 		$(".toggle_menu").addClass("opacity_zero");
 	});
 	
-	$(".fa-times").click(function(){
+	$(".fa-times,header,.inside,footer").click(function(){
 		
 		$(".sidebar_menu").removeClass("show_menu");
 		$(".toggle_menu").removeClass("opacity_zero");
 	});
 	
-	
-
+		
 	//Work section
 	
 	$(".project-unit").click(function(){
