@@ -1,6 +1,6 @@
 #  Aswathy Dinesh - Web Developer
 
-This is my personal website. " will be published soon "
+This is my personal website. http://aswathyd.cf
 
 - Built with:
     * Html
